@@ -1,0 +1,118 @@
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url("fonts/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url("fonts/Montserrat-Bold.ttf");
+}
+
+
+html{
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0;
+}
+
+.jumbotron{
+  background-color: #51b8e1;
+}
+
+img{
+  display: block;
+  max-width: 75%;
+  height: auto;
+  border: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+  font-family: Montserrat-Bold;
+  text-align: center;
+  font-size: 2em;
+}
+
+div{
+  margin-top: none;
+  margin-bottom: none;
+}
+
+p{
+  font-family: Montserrat-SemiBold;
+  text-align: center;
+  font-size: 1.25em;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: none;
+  padding-top: none;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  background-color: white;
+}
+
+li{
+  display: inline;
+}
+
+a{
+  font-family: Montserrat-SemiBold;
+  display: inline-block;
+  color: black;
+  font-size: 1.2em;
+  padding: 10px;
+  text-decoration: none;
+}
+
+li a:hover{
+  text-decoration: none;
+  color: gray;
+}
+
+.content{
+  padding: 16px;
+}
+
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content{
+  padding-top: 60px;
+}
+
+#path1{
+  fill: #51b8e1;
+}
+
+#path2{
+  fill: white;
+}
+
+#path3{
+  fill: #bfbfbf;
+}
+
+.white{
+  background-color: white;
+}
+
+.gray{
+  background-color: #bfbfbf;
+}
+
+.green{
+  background-color: #00b300;
+}
