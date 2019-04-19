@@ -1,3 +1,13 @@
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url("fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url("fonts/Montserrat-SemiBold.ttf");
+}
+
 body {
   background: url("img/logo.jpg") no-repeat 50% 50% fixed;
   background-size: cover;
@@ -6,8 +16,29 @@ body {
   -webkit-background-size: cover;
 }
 
+
 a{
   text-decoration: none;
+}
+
+h1{
+  font-family: Montserrat-Bold;
+  padding-left: 1em;
+  padding-right: 2em;
+  margin-left: 1em;
+  margin-right: 2em;
+  font-size: 4em;
+}
+
+h2{
+  font-family: Montserrat-SemiBold;
+  text-align: center;
+  font-style: italic;
+
+}
+
+div{
+  padding: 2em;
 }
 
 button,
@@ -31,6 +62,7 @@ button {
   position: relative;
   text-transform: uppercase;
 }
+
 
 button::before,
 button::after {
